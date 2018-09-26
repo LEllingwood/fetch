@@ -1,0 +1,3 @@
+fetch ("http://jservice.io/api/category?id=136")
+    .then(responseObject => responseObject.json())
+    .then(finalAnswer => console.log(finalAnswer))
